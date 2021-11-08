@@ -1,0 +1,199 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font: 12px/25px arial,sans-serif;
+    height: 20000px;
+}
+
+body{
+    font: 12px/28px, arial;
+}
+.container{
+    width: 700px;
+    margin: 20px auto;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom:2px solid black ;
+    box-sizing: border-box;
+    position: relative;
+}
+.header{
+    padding: 20px;
+    height: 30px;
+    border-bottom: 2px solid black;
+    background: #eaeaea;
+}
+.header .navigasi h1{
+    font-size: 16px;
+    margin-right: 40px;
+    float: left;
+    font-weight: bold;
+}
+.header .navigasi ul li{
+    margin-right: 10px;
+    float: left;
+}
+.header .navigasi .chart{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 60px;
+    float: right;
+}
+.header .navigasi .chart a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    width: 700px;
+    padding: 20px;
+}
+.content .main{
+    width: 400px;
+  
+}
+.content .main .check{
+    float: left;
+    margin-right: 20px;
+}
+.content .informasi{
+    width: 400px;
+  
+}
+.content .informasi .alamat1{
+    width: 150px;
+    float: left;
+    margin-right: 100px;
+}
+.content .informasi .alamat2{
+    width: 150px;
+    float: left;
+}
+.content .informasi .shipping{
+    width: 150px;
+    float: left;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.content .informasi .payment{
+    width: 150px;
+    float: left;
+    margin-top: 40px;
+}
+
+.summary{
+    width: 230px;
+    background: #eaeaea;
+    padding: 10px;
+    position: absolute;
+    top: 92px;
+    right: 10px;
+}
+.summary .subtotal{
+    margin-right: 110px;
+}
+.summary .ship{
+    margin-right: 114px;
+}
+.summary .est {
+    margin-right: 105px;
+}
+.summary .text{
+    float: left;
+}
+.summary .submit{
+    float: left;
+    background-color: white;
+    margin-left: 3px;
+}
+
+.footer{
+    height: 50px;
+    background: #eaeaea;
+    padding:5px;
+    border-top:2px solid black ;
+    margin-top: 100px;
+}
+.footer .sitename{
+    float: left;
+    margin-right: 10px;
+}
+.footer ul li{
+    margin-right: 5px;
+    float: left;
+    
+}
+.footer .attention {
+    float:right;
+
+}
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
